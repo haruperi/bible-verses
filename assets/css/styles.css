@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Base styles: 
+   ========================================================================== */
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/GothamBook.ttf') format('truetype'); 
+  }
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.ttf') format('truetype'); 
+  }
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../fonts/JosefinSans-Regular.ttf') format('truetype'); 
+  }
+
+@font-face {
+    font-family: 'JosefinSansBold';
+    src: url('../fonts/JosefinSans-Bold.ttf') format('truetype'); 
+  }
+
+:root {
+    --primary-color: #050A30;
+    --secondary-color: #5BA3F8;
+    --tertiary-color: #5E503F;
+    --body-color: #F2F4F3;
+    --effects-color: #A9927D;
+  }
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #222;
+  background-color: var(--body-color);
+  font-size: 18px;
+  font-family: 'GothamBook', sans-serif;
+ 
+}
+
+body {
+  margin: 0;  /* Remove the margin in all browsers. */
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JosefinSansBold', sans-serif;
+}
+
+
+/* Remove the gap and the bottom of their containers: */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+img {
+  width: 100%;
+  border-style: none;
+}
+
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%; 
+  margin: 0; 
+}
+
+
+/* ==========================================================================
+   Media Queries: 
+   ========================================================================== */
+   /* Mobile */
+   @media screen and (max-width: 615px ) {
+
+    img {
+      margin: auto;
+      width: 90%;
+      }
+     
+   }
+
+   /* Tablets */
+   @media screen and (max-width: 1023px ) {
+     
+  }
